@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <h1>Movie Search</h1>
+    <button id="modeToggle" aria-label="Toggle Light/Dark Mode">🌙</button>
+  </header>
+
+  <main>
+    <section id="homePage" class="page active">
+      <input id="input" placeholder="Enter movie name..." autocomplete="off" />
+      <button id="searchBtn">Search</button>
+      <div id="searchHistory" class="history-container"></div>
+      <div id="movieCards" class="cards-container"></div>
+    </section>
+
+    <section id="detailsPage" class="page">
+      <button id="backBtn">← Back</button>
+      <div id="movieDetails" class="details-card"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-owner">
+      <img src="owner.jpg" alt="Owner Photo" />
+      <div>
+        <p><strong>Nimesh Dilshan</strong></p>
+        <p>Campus: ATI-Tangalle | Degree: Higher National Diploma in Information Technology</p>
+      </div>
+    </div>
+    <div class="social-links">
+      <a href="https://github.com/nimeshdilshan" target="_blank" rel="noopener" aria-label="GitHub">
+        <img src="https://cdn-icons-png.flaticon.com/24/25/25231.png" alt="GitHub" />
+      </a>
+      <a href="https://linkedin.com/in/nimeshdilshan" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <img src="https://cdn-icons-png.flaticon.com/24/174/174857.png" alt="LinkedIn" />
+      </a>
+      <a href="mailto:nimesh@example.com" aria-label="Email">
+        <img src="https://cdn-icons-png.flaticon.com/24/732/732200.png" alt="Email" />
+      </a>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
